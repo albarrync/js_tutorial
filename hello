@@ -1,3 +1,6 @@
 #!/usr/local/bin/node
 
-console.log("Hallo, World!");
+let test = "Test"
+console.log("Hallo, World! \nTesting line break.\n\tTesting line break and tab.");
+
+console.log(test)

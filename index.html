@@ -4,7 +4,11 @@
         <title>WunderScript</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
-        <script>alert("Hello, Vorld!")
+        <script>
+        const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] 
+        let now = new Date();
+        let dayName = daysOfTheWeek[now.getDay()];
+        alert(`Hallo, Vorld! Happy ${dayName}.`);
         </script>
     </head>
     <body>
