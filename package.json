@@ -1,0 +1,25 @@
+{
+  "name": "js_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "albarrync-palindrome": "^0.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albarrync/js_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albarrync/js_tutorial/issues"
+  },
+  "homepage": "https://github.com/albarrync/js_tutorial#readme"
+}

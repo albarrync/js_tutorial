@@ -1,0 +1,16 @@
+#!/usr/local/bin/node
+
+let fs = require("fs");
+let Phrase = require("albarrync-palindrome");
+let textToWrite = [];
+
+let text = fs.readFileSync("phrases.txt", "utf-8");
+text.split("\n").forEach(function(line){
+    let phrase = new Phrase(line);
+    if(phrase.palindrome()) {
+        console.log("palindrome detected:", line);
+        textToWrite.push(line + `\n`);
+    }
+    console.log(textToWrite);
+    fs.writeFile('onlyPalindromes.txt', textToWrite, function(err) {});
+});
